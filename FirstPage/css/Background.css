@@ -1,0 +1,32 @@
+﻿
+:root {
+    --backgroundgradient: linear-gradient(45deg, #6827a3, blueviolet, #902ced, #9f42f7, #ab58fa, #c487ff);
+    --moreinfogradient: linear-gradient( 45deg, #02074d, #030631);
+    --testgradient: linear-gradient( 45deg, white, black);
+}
+
+.background {
+    background-image: var(--backgroundgradient);
+    background-size: 10000%;
+    height: 1500%;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: background-image 3s;
+    animation: backgroundGradientMoving 6s infinite;
+}
+
+
+
+@keyframes backgroundGradientMoving {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+}

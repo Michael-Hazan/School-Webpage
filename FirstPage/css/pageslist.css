@@ -1,0 +1,39 @@
+﻿ul.pageslist {
+    
+    width: fit-content;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 0px;
+    margin:auto;
+}
+ul.pageslist li {
+    background-color: rgba(60, 60, 60, 0.5);
+    margin:-2px;
+    width:fit-content;
+    padding:10px;
+    display: inline-block;
+    transition:0.4s;
+}
+ul.pageslist li:hover{
+    background-color: rgba(60, 60, 60, 0.7);
+    transition:0.4s;
+}
+
+ul.pageslist li a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: wheat;
+    mix-blend-mode:exclusion;
+    font-size: 25px;
+}
+
+
+@keyframes buttonanimation{
+    from{
+        background-color: rgba(60, 60, 60, 0.8);
+    }
+    to {
+        background-color: rgba(60, 60, 60, 1);
+    }
+}

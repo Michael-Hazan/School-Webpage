@@ -1,0 +1,101 @@
+﻿h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkkhaki;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+}
+
+div.mainbackground {
+    background-color: rgb(43, 43, 43, 0.8);
+    width: 55%;
+    float: left;
+    margin-top:20px;
+    border-radius: 7px 14px;
+}
+
+div.miniheader{
+    margin:auto;
+    text-align:center;
+    color:burlywood;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+}
+
+div.calculation input, select, textarea{
+
+    color:white;
+    margin:auto;
+    text-align:center;
+    width:max-content;
+}
+
+div.calculation input.answer, select, textarea {
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    margin-top:5px;
+}
+
+div.calculations {
+    width:fit-content;
+    margin: auto;
+    margin-top:20px;
+}
+
+div.calculation{
+    padding-bottom:20px;
+    color:white;
+}
+
+.responses {
+    width:fit-content;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 2px;
+}
+
+.responsebutton {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select:none;
+    margin: auto;
+    background-color: rgb(48, 151, 255, 0.8);
+    font-size:20px;
+    width: 80px;
+    color: ghostwhite;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 5px 4px;
+    transition: 0.5s;
+}
+
+.responsebutton:hover {
+   cursor:pointer;
+   color:rgb(48, 151, 255, 0.8);
+   background-color:ghostwhite;
+   font-weight:500;
+   transition: 0.5s;
+}
+
+
+.sidepanel {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:antiquewhite;
+    text-align:center;
+    padding:10px;
+
+    background-color: rgb(43, 43, 43, 0.8);
+    width: 10%;
+    margin-bottom:20px;
+    border-radius: 7px 14px;
+    float:left;
+    margin:25px 5% 25px 10%;
+    overflow:hidden;
+}
+
+.calsAmount {
+    width:60%;
+    margin: 10px 25px
+}

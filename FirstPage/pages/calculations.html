@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html class="background">
+<head>
+    <link rel="stylesheet" href="../css/pageslist.css" />
+    <link rel="stylesheet" href="../css/Background.css" />
+    <link rel="stylesheet" href="../css/calculations.css" />
+    <script src="../js/calculations.js"></script>
+    <meta charset="utf-8" />
+    <title>Calculations</title>
+</head>
+<body>
+    <header>
+        <h1>Calculations</h1>
+        <ul class="pageslist">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./imageTable.html">Image Table</a></li>
+            <li><a href="./imageTable.html">Hour List</a></li>
+            <li><a href="./calculations.html">Calculations</a></li>
+        </ul>
+    </header>
+    <div class="sidepanel">
+        Amount of questions
+        <div class="in">
+            <input type="number" id="calsAmount" class="calsAmount" />
+        </div>
+        <div id="badCalsAmount"></div>
+
+        <div class="responsebutton" onclick="setCalsAmount()">Submit</div>
+    </div>
+    <div class="mainbackground" id="mbg">
+        <div class="miniheader">
+            please complete the calculations<br />(On division questions that dont round up, enter the 2 numbers after the dot, like 1.22 3.12 etc..)
+        </div>
+        <div class="calculations" id="calculations">
+        </div>
+        <div class="responses">
+            <div class="responsebutton" onclick="checkAnswers()">Submit</div>
+            <div class="responsebutton" onclick="load()">Reset</div>
+        </div>
+        <br />
+    </div>
+
+</body>
+</html>
